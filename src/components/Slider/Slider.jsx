@@ -5,10 +5,10 @@ import putatoe from "../../assets/putatoe.png";
 
 const Slider = () => {
   return (
-    <div className="container">
+    <div className="row w-100">
       <div
         id="carouselExampleInterval"
-        className="carousel slide"
+        className="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators">
@@ -36,7 +36,7 @@ const Slider = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="4000">
-            <img src={putatoe} className="d-block w-100" alt="putatoe logo" />
+            <img src={putatoe} className="d-block w-100" alt="putatoe-logo" />
           </div>
           <div className="carousel-item" data-bs-interval="3000">
             <img src={loan} className="d-block w-100" alt="loan" />

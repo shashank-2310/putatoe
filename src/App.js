@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import ContactUs from './pages/ContactUs/ContactUs';
 import Services from './pages/Services/Services';
 import Hiring from './pages/Hiring/Hiring';
-import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,11 +14,10 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/contactus" element={<ContactUs />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/hiring" element={<Hiring />} />
+        <Route exact path="/contactus" element={<ContactUs />} />
       </Routes>
-      <Footer />
     </Router>
   );
 }

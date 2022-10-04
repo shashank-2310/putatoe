@@ -1,13 +1,28 @@
 import React from "react";
 import Slider from "../../components/Slider/Slider";
-// import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
-    <div className="container">
+    <>
       <Slider />
-      {/* <Footer /> */}
-    </div>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <h1>hi</h1>
+      <Footer />
+    </>
   );
 };
 

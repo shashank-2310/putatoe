@@ -1,9 +1,11 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
+
 const Navbar = () => {
   let location = useLocation();
-  const dowloadUrl = "https://play.google.com/store/apps/details?id=com.putatoeapp.application&gl=US";
+  const dowloadUrl =
+    "https://play.google.com/store/apps/details?id=com.putatoeapp.application&gl=US";
 
   return (
     <nav
@@ -63,7 +65,7 @@ const Navbar = () => {
                 className={`nav-link text-capitalize ${
                   location.pathname === "/contactus" ? "active" : ""
                 }`}
-                to="/contactus"
+                to="contactus"
               >
                 contact us
               </Link>
