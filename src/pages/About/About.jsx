@@ -1,16 +1,57 @@
-import React from 'react'
-import Footer from '../../components/Footer/Footer'
+import React from "react";
+import Footer from "../../components/Footer/Footer";
+import "../../App.css";
 
 const About = () => {
   return (
-    <div className="container">
-      <h1 className="my-1">About Us</h1>
-      <p className="my-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam alias, delectus quia accusantium ab voluptate voluptatibus impedit ea repellat et dolores vel nemo ad nobis soluta placeat earum, facere officia, facilis laudantium ex. Modi distinctio nemo laboriosam, a blanditiis cupiditate sed error magnam amet nesciunt voluptatibus doloribus fugit cum harum atque dignissimos totam voluptas nisi quidem eos. Voluptatum at id iusto vel explicabo quaerat sint. Vero, eos. At, repellat! Cumque adipisci voluptatem, possimus similique omnis ea fugiat facere ex! Neque corporis maxime rem explicabo nemo ea provident beatae ipsum? Quasi sapiente maiores veritatis rerum deleniti voluptas ut dolorem repudiandae laudantium, at magni totam quas cumque voluptatem qui dolorum quisquam commodi modi velit officiis id error. Sequi quasi quas expedita nesciunt autem dolor recusandae perspiciatis placeat exercitationem perferendis, minus libero fuga consectetur repellendus saepe omnis quidem harum magni cum dignissimos quae consequuntur eaque vel fugit? Eos, inventore dolore nobis suscipit ea nesciunt quisquam, vel et nemo maiores sequi vero. Placeat corporis molestias in laudantium enim, recusandae laboriosam aliquid dolorem id nostrum consequatur odit accusamus ut consequuntur quaerat numquam aliquam. Odio quasi dolorem non, tempore cupiditate magni, quia minus cumque vero voluptatem mollitia ipsum reiciendis provident nihil, repellendus pariatur officia accusantium maiores. Molestiae nam natus fugit dolorum beatae aliquam quod suscipit odit, laudantium sit, aliquid ratione. Reprehenderit, voluptas dignissimos id quam et inventore! Enim provident ipsum facilis in soluta cumque maxime itaque quam. Labore suscipit voluptate laudantium, culpa nam provident. Aut fugiat tempore natus qui, quaerat sequi harum? Rerum doloribus consequuntur minus. Cupiditate nostrum voluptatum fuga molestias expedita voluptas, impedit obcaecati veniam perspiciatis ipsa quasi, ratione suscipit! Repellendus, dolores iure, aspernatur, libero quos neque est ea facere commodi voluptatum laborum error provident doloribus a molestiae unde maxime! Cumque, illum cum! Id sed quae eum eius facere consectetur nisi similique! Veritatis debitis rerum illum aspernatur ut neque magnam, tempora fuga commodi eaque asperiores soluta distinctio consequatur, est nobis expedita perspiciatis suscipit quae. Delectus quis non autem eveniet nostrum hic laboriosam ut possimus consequatur ipsa commodi, quod porro ratione facilis maxime. Sint iusto consectetur nam nesciunt recusandae excepturi impedit? Id est necessitatibus saepe laboriosam voluptates, corrupti numquam consequuntur vitae odit doloribus nesciunt adipisci rem ex perferendis. Illum consequatur facilis eaque saepe maxime repudiandae? Est repellat rerum voluptate dolores non minus quia voluptatum illo exercitationem ipsam optio aspernatur omnis tempore doloribus voluptatibus similique quibusdam, sapiente sit iusto a. Maiores necessitatibus illum hic accusamus cumque enim quod minus esse, modi voluptates in iure consequuntur quis dolore aliquam ut quae incidunt, ea officiis dignissimos optio. Facilis fuga ea odio hic temporibus nulla nam earum unde quas. Aspernatur praesentium beatae aperiam officia alias cupiditate atque ullam molestiae repellat. Fugiat illum libero quaerat nam vitae. Culpa, porro sequi. Quo explicabo ipsum ipsa velit placeat. Possimus doloremque in perspiciatis dolores unde. Perferendis vitae in rem beatae unde ipsum recusandae aliquam minus illum! Deleniti ab sapiente illum aliquam autem adipisci modi accusantium voluptate praesentium natus enim libero hic error illo, aperiam dolore tenetur expedita ipsum dolor laudantium. Obcaecati veniam nam earum.
-      </p>
-      <Footer />
-    </div>
-  )
-}
+    <>
+      <div className="container my-3 app-h">
+        <h1 className="my-2">About Us</h1>
+        <p className="my-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+          incidunt nostrum? Labore quis rerum accusantium delectus nobis, dolore
+          eligendi neque? Dolore reiciendis molestiae nisi ipsam quae. Nihil
+          libero cumque debitis tempora possimus numquam nisi labore
+          consectetur! Praesentium itaque hic quia deserunt temporibus
+          exercitationem fugit, nam non molestiae, numquam aut iste maxime animi
+          amet atque perferendis dolorum repudiandae error sit modi dicta
+          reprehenderit nisi. Officiis, nulla quis molestias saepe incidunt
+          cumque quos molestiae adipisci dolor, suscipit at ratione optio
+          deserunt pariatur est sequi dolores aliquam rem eaque expedita. Totam
+          vero eum amet vitae nihil reprehenderit recusandae saepe similique
+          consectetur? Tempora, maxime, similique commodi accusamus, odio optio
+          adipisci delectus ab rem vel maiores magni. Veritatis nisi, possimus,
+          itaque dolorum cupiditate illum deserunt ratione nulla quisquam vel
+          expedita ullam, neque sapiente quia at placeat omnis minima dolor
+          error? Rerum voluptas expedita hic praesentium quis tempore asperiores
+          vel dolore dolores, ad odit beatae perferendis excepturi et temporibus
+          illum nesciunt corrupti vero alias doloremque accusantium qui rem. Ex
+          nemo quis deleniti asperiores recusandae consequuntur doloribus?
+          Doloremque exercitationem officiis harum tempore assumenda atque
+          dolores aperiam aliquid ducimus impedit pariatur praesentium
+          laboriosam, unde deserunt eum nesciunt? In accusantium deleniti
+          laboriosam praesentium expedita aliquid quam corporis optio sunt!
+        </p>{" "}
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+          architecto, eaque incidunt ducimus voluptates amet a libero ipsa vel
+          dolore velit. Obcaecati eligendi quasi at ut optio dolorum magnam
+          molestias sint esse! Est iste repudiandae quo cum? Nisi, accusantium
+          saepe impedit repudiandae, eveniet vitae minus nulla atque labore
+          modi, laborum et sequi. Soluta corporis ipsam saepe at ipsa qui neque
+          deserunt. Error molestias maxime itaque asperiores deserunt, saepe
+          amet perspiciatis obcaecati dolorum voluptatibus nobis velit quo
+          laudantium laborum eos vero esse sit adipisci cumque modi quidem nisi
+          odio exercitationem! Eveniet asperiores sit a expedita perferendis ex
+          vitae nam iure dignissimos!
+        </p>
+      </div>
+      <div className="w-100">
+        <Footer />
+      </div>
+    </>
+  );
+};
 
-export default About
+export default About;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Alert = () => {
   return (
@@ -9,7 +10,8 @@ const Alert = () => {
       <h4 className="alert-heading mt-0">Thank you for applying!</h4>
       <p className="my-0">
         We request you to wait patiently. The status of your application will be
-        notified to you through your given email.
+        notified to you through your given email. <br /> For further queries
+        email us at <Link>careers@putatoe.in</Link>
       </p>
       <button
         type="button"

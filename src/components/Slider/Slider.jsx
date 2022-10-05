@@ -5,7 +5,7 @@ import putatoe from "../../assets/putatoe.png";
 
 const Slider = () => {
   return (
-    <div className="row w-100">
+    <div className="row w-100 mb-5 mt-1">
       <div
         id="carouselExampleInterval"
         className="carousel slide carousel-fade"

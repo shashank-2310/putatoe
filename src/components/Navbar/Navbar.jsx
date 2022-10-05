@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav
       className="navbar sticky-top navbar-expand-lg navbar-dark fw-lighter"
-      style={{ backgroundColor: "#100F0F", fontFamily: "Roboto San-seirf" }}
+      style={{ backgroundColor: "#100F0F", fontFamily: "Roboto San-serif" }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand text-capitalize ml-2" to="/">

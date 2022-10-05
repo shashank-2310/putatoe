@@ -1,27 +1,20 @@
 import React from "react";
-import Slider from "../../components/Slider/Slider";
 import Footer from "../../components/Footer/Footer";
+import Slider from "../../components/Slider/Slider";
+import SerivicesHome from "../Services/ServicesHome";
 
 const Home = () => {
   return (
     <>
-      <Slider />
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <h1>hi</h1>
-      <Footer />
+      <div className="w-100">
+        <Slider />
+      </div>
+      <div className="app-h container">
+        <SerivicesHome />
+      </div>
+      <div className="w-100">
+        <Footer />
+      </div>
     </>
   );
 };

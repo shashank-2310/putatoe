@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
 import About from './pages/About/About';
@@ -9,7 +8,7 @@ import Hiring from './pages/Hiring/Hiring';
 
 function App() {
   return (
-    <Router>
+    <Router >
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />

@@ -1,11 +1,8 @@
 About page ---DONE
 Footer ---DONE
 hiring ka separate page banayenge with a form ---DONE
-contact us ko bhi footer me redirect krdenge...no separate page
-services ka dedicated page hoga jisme saari services hongi plus home me ek section me thodi services list krke view more btn se same dedicated services page pr redirect krdenge
-services dedicated page me bhi download btn denge as well as footer me
-about & contact us ko component me change krenge from pages
-routes update krenge
+contact us  ---DONE
+services ka dedicated page hoga jisme saari services hongi plus home me ek section me thodi services list krke view more btn se same dedicated services page pr redirect krdenge ---DONE
+download btn denge as well as footer me ---DONE
 colors me improvements krenge
-hiring me mail k thru submitted data bhej denge
-footer ko manually saare page pr except hiring page
+footer ko manually saare page pr ---DONE

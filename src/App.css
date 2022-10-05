@@ -3,5 +3,20 @@
 }
 
 .icon:hover {
-    color: #FFFF00;
+    color: yellow;
+}
+
+.app-h {
+    height: 65vh;
+}
+
+.footer-border {
+    border-top: solid 1px yellow;
+}
+
+footer .container hr {
+    background-color: yellow;
+    width: 6%;
+    height: 2px;
+    border-radius: 2px;
 }
