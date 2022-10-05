@@ -9,7 +9,7 @@ const Home = () => {
       <div className="w-100">
         <Slider />
       </div>
-      <div className="app-h container">
+      <div className="container">
         <SerivicesHome />
       </div>
       <div className="w-100">
