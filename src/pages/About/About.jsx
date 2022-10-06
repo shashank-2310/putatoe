@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div className="container my-3 app-h">
-        <h1 className="my-2">About Us</h1>
+        <h1 className="my-2 icon">About Us</h1>
         <p className="my-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
           incidunt nostrum? Labore quis rerum accusantium delectus nobis, dolore
@@ -33,7 +33,7 @@ const About = () => {
           laboriosam praesentium expedita aliquid quam corporis optio sunt!
         </p>{" "}
         <br />
-        <p>
+        <p className="my-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
           architecto, eaque incidunt ducimus voluptates amet a libero ipsa vel
           dolore velit. Obcaecati eligendi quasi at ut optio dolorum magnam
@@ -46,7 +46,22 @@ const About = () => {
           odio exercitationem! Eveniet asperiores sit a expedita perferendis ex
           vitae nam iure dignissimos!
         </p>
+        <p className="my-2">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+          incidunt sit libero voluptatum quibusdam. Sunt veritatis magnam at!
+          Cupiditate, necessitatibus. Numquam natus illum porro, possimus
+          perspiciatis omnis ea maiores eius eum. Similique nulla cumque
+          adipisci dolorem earum quam error assumenda illo, quasi non officiis
+          modi ducimus fuga veniam tempora? Et voluptate nostrum quaerat
+          cupiditate dolor deserunt sapiente ratione culpa nobis? Assumenda
+          natus quibusdam nisi recusandae voluptatem quas laborum voluptas
+          placeat aperiam perferendis impedit aut, non corrupti similique
+          reiciendis dicta dolorem exercitationem, saepe ullam debitis itaque
+          aspernatur sit praesentium! Id repellat at assumenda reiciendis
+          beatae, asperiores optio repudiandae aspernatur quos blanditiis!
+        </p>
       </div>
+      <br /> <br /> <br /><br />
       <div className="w-100">
         <Footer />
       </div>

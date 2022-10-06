@@ -9,11 +9,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className="navbar sticky-top navbar-expand-lg navbar-dark fw-lighter"
-      style={{ backgroundColor: "#100F0F", fontFamily: "Roboto San-serif" }}
+      className="navbar sticky-top navbar-expand-lg navbar-dark fw-lighter fs-5"
+      style={{ backgroundColor: "#100F0F"}}
     >
       <div className="container-fluid">
-        <Link className="navbar-brand text-capitalize ml-2" to="/">
+        <Link className="navbar-brand text-capitalize mx-3 fs-4" to="/">
           putatoe
         </Link>
         <button
@@ -29,7 +29,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item mx-4">
+            <li className="nav-item mx-5">
               <Link
                 className={`nav-link text-capitalize ${
                   location.pathname === "/" ? "active" : ""
@@ -40,7 +40,7 @@ const Navbar = () => {
                 home
               </Link>
             </li>
-            <li className="nav-item mx-4">
+            <li className="nav-item mx-5">
               <Link
                 className={`nav-link text-capitalize ${
                   location.pathname === "/services" ? "active" : ""
@@ -50,7 +50,7 @@ const Navbar = () => {
                 services
               </Link>
             </li>
-            <li className="nav-item mx-4">
+            <li className="nav-item mx-5">
               <Link
                 className={`nav-link text-capitalize ${
                   location.pathname === "/about" ? "active" : ""
@@ -60,7 +60,7 @@ const Navbar = () => {
                 about
               </Link>
             </li>
-            <li className="nav-item mx-4">
+            <li className="nav-item mx-5">
               <Link
                 className={`nav-link text-capitalize ${
                   location.pathname === "/contactus" ? "active" : ""
@@ -70,7 +70,7 @@ const Navbar = () => {
                 contact us
               </Link>
             </li>
-            <li className="nav-item mx-4">
+            <li className="nav-item mx-5">
               <Link
                 className={`nav-link text-uppercase ${
                   location.pathname === "/hiring" ? "active" : ""
@@ -88,7 +88,7 @@ const Navbar = () => {
                 window.open(dowloadUrl);
               }}
               target="_blank"
-              className="btn btn-outline-light mx-3"
+              className="btn btn-outline-warning mx-3"
             >
               <i className="fa-brands fa-google-play mx-2"></i>Download now
             </button>

@@ -1,8 +1,0 @@
-About page ---DONE
-Footer ---DONE
-hiring ka separate page banayenge with a form ---DONE
-contact us  ---DONE
-services ka dedicated page hoga jisme saari services hongi plus home me ek section me thodi services list krke view more btn se same dedicated services page pr redirect krdenge ---DONE
-download btn denge as well as footer me ---DONE
-colors me improvements krenge
-footer ko manually saare page pr ---DONE

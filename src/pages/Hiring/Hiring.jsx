@@ -123,7 +123,7 @@ const Hiring = () => {
               />
             </div>
             <div className="d-grid gap-2 col-6 mx-auto">
-              <button type="submit" className="mt-2 btn btn-primary">
+              <button type="submit" className="mt-2 btn btn-warning">
                 Submit
               </button>
             </div>
